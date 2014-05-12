@@ -1,0 +1,122 @@
+/*
+ * general definitions
+ * */
+
+body {
+	background-color: #43009C;
+}
+
+h1 {
+	font-family: Verdana;
+	color: white;
+}
+
+a {
+	font-size: 0.75em;
+	text-decoration: none;
+	color:blue;
+}
+
+p {
+	font-family: Verdana;
+	color: #ffffff;
+}
+
+/*
+ * id-definitions
+ * */
+
+#inhaltsbereich {
+	width: 1000px;
+	margin: auto;
+	padding-top: 50px;
+/*	border: 10px dashed white; */
+}
+
+#header {
+	width: 98%;
+	height: 150px;
+	border: 10px dashed white;
+}
+
+#pic {
+  	height: 250px;
+}
+
+#nav {
+	clear: left;
+/*	height: 100px;
+ *	padding: 10px; */
+	padding-bottom: 2px;
+}
+
+#footer {
+  	clear: both;
+  	width: 97.5%;
+  	padding: 10px;
+  	text-align: center;
+}
+
+#button1 {  /* cyan */
+	background-color: #00aaff;
+}
+
+/* #cyan.hover {
+ * 	margin-top: 2px;
+ * 	margin-left: 2px;
+ * } */
+
+#button2 {  /* orange */
+	background-color: #ff5500;
+}
+
+#button3 {  /* yellow */
+	background-color: #ECFF42;
+}
+
+#button4 {  /* pink */
+	background-color: #FF42F2;
+}
+
+#button5 {  /* green */
+	background-color: #42ff4f;
+}
+
+#button6 {  /* cyan */
+	background-color: #00aaff;
+}
+
+/*
+ * class-definitions
+ * */
+  
+.right {
+	
+  	float:right;
+  	width: 70%;
+  	height: 650px;
+  	margin-top: 15px;
+  	margin-bottom: 15px;
+  	padding: 20px;
+	border: 10px dashed white;
+	overflow: auto;
+	overflow-x: hidden;
+  }
+
+.left {
+	float:left;
+	width: 18%;
+	margin-top: 15px;
+/*	margin-bottom: 10px; */
+	border: 10px dashed white;
+}
+
+.button {
+	height: 20px;
+	width: 90%;
+	font-family: Verdana;
+	margin: auto;
+	margin-top: 4px;
+	margin-bottom: 2px;
+	padding: 3px;
+}
